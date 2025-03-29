@@ -1,0 +1,110 @@
+.header{
+    background-color: rgb(82, 65, 7);
+
+}
+.navbar{
+    background-color:rgb(82, 65, 7);
+}
+
+/* Card hover effect */
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Fixed card height and styling */
+.card {
+   height: 550px;
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+/* Feedback star color */
+.fa-star {
+    color: gold;
+}
+
+/* Responsive layout */
+@media (max-width: 576px) {
+    .col-2 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+.card-title{
+    color: #5d5d5d;
+}
+.footer {
+    background-color: #343a40;
+    color: #9e9d9d;
+    padding: 3rem 0;
+}
+
+.footer h5 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.footer a {
+    color: #9e9d9d;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.social-icons i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.fb:hover {
+    color: #0857c5;
+}
+.wh:hover {
+    color: #018112;
+}
+.inst:hover {
+    color: #bb0505;
+}
+.Read{
+    color: rgb(255, 255, 255);
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.card-text {
+    margin-bottom: 0.5rem;
+}
+
+
+
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    width: 100%;
+    margin-top: 10px;
+}

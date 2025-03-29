@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK SHELF</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="home container-fluid">
+        <div class="header">
+            <div class="row">
+                <div class="col-md-2 ">
+                    <img class="container mt-3"  src="/Project2/Images/Logo/THE BOOK SHELF.png" alt="">
+                </div>
+               
+                <div class="col-md-3 offset-md-7 mt-2  text-end">
+                    <a href="cart.html" class="btn btn-outline-light"><i class="fa fa-shopping-cart"></i></a>
+
+                   
+                    <a href="wishlist.html" class="btn btn-outline-light"> <i class="fa fa-bookmark"></i></a>
+                </div>
+                <div>
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-1">
+                        <div class="container ">
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                            <ul class="navbar-nav d-flex justify-content-center">
+                              <li class="nav-item">
+                                <a class="nav-link active me-3" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle ms-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Categories
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item category-filter" href="#" data-category="all">All</a></li>
+                                    <li><a class="dropdown-item category-filter" href="#" data-category="Academic">Academic</a></li>
+                                    <li><a class="dropdown-item category-filter" href="#" data-category="Art">Art</a></li>
+                                    <li><a class="dropdown-item category-filter" href="#" data-category="Astrology">Astrology</a></li>
+                                    <li><a class="dropdown-item category-filter" href="#" data-category="Novel">Novel</a></li>
+                                    <li><a class="dropdown-item category-filter" href="#" data-category="Kids">Kids</a></li>
+                                    <li><a class="dropdown-item category-filter" href="#" data-category="Religion">Religion</a></li>
+                                </ul>
+                            </li>
+                             <!-- <li class="nav-item">
+                                  <a class="nav-link ms-3" href="">Award Winners</a>
+                                </li> -->
+                                <li class="nav-item">
+                                  <a class="nav-link ms-3" href="Contact us.html">Contact Us</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link ms-3" href="Our stores.html">Our Stores</a>
+                                </li>
+                            </ul>
+                          </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>  
+        
+        <div class="container my-5">
+          <h1 class="text-center mb-4">Our Stores</h1>
+          <div class="accordion" id="storeAccordion">
+              <!-- Store 1 -->
+              <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          <i class="fas fa-store"></i>Malappuram</button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#storeAccordion">
+                      <div class="accordion-body">
+                          <p><strong>Address:</strong> Near bustand,Vengara,Malappuram,Pin:-676304</p>
+                          <p><strong>Phone:</strong> +91 98765 43210</p>
+                          <a href="https://www.google.co.in/maps/@11.0440634,75.9876521,15.07z?entry=ttu&g_ep=EgoyMDI1MDEwOC4wIKXMDSoASAFQAw%3D%3D" class="btn btn-outline-primary btn-sm" target="_blank">
+                              <i class="fas fa-map-marker-alt"></i> View on Map
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <!-- Store 2 -->
+              <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <i class="fas fa-store"></i>Calicut
+                      </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#storeAccordion">
+                      <div class="accordion-body">
+                          <p><strong>Address:</strong>Beach hospital building,vellayil,Kozhikode,kerala 673032</p>
+                          <p><strong>Phone:</strong> +91 98755 12345</p>
+                          <a href="https://www.google.co.in/maps/place/Govt+General+Hospital+Administrative+Block/@11.2570135,75.7664274,17z/data=!4m14!1m7!3m6!1s0x3ba65f275a53a5fd:0xe4fdadce1c6c02e2!2sCalicut+Beach!8m2!3d11.2570135!4d75.7690023!16s%2Fg%2F11t5d7tymc!3m5!1s0x3ba6599c01ef32a1:0x8440fbb0df5376b4!8m2!3d11.2562013!4d75.7701392!16s%2Fg%2F11qbt8s7lp?entry=ttu&g_ep=EgoyMDI1MDEwOC4wIKXMDSoASAFQAw%3D%3D" class="btn btn-outline-primary btn-sm" target="_blank">
+                              <i class="fas fa-map-marker-alt"></i> View on Map
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <!-- Store 3 -->
+              <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <i class="fas fa-store"></i>Ernakulam
+                      </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#storeAccordion">
+                      <div class="accordion-body">
+                          <p><strong>Address:</strong>Parish Hall, Kaloor - Kadavanthara Road Near St. Francis Xavier's Church, Kochi, Kerala 682017</p>
+                          <p><strong>Phone:</strong> +91 98765 67890</p>
+                          <a href="https://www.google.co.in/maps/place/Cake+Hut/@9.9854068,76.1433468,12z/data=!4m10!1m2!2m1!1sErnakulam+cake+hut!3m6!1s0x3b080d3822ca5759:0x8b0068a21219dd05!8m2!3d9.9854068!4d76.2957821!15sChJFcm5ha3VsYW0gY2FrZSBodXQiA4gBAVoUIhJlcm5ha3VsYW0gY2FrZSBodXSSAQljYWtlX3Nob3DgAQA!16s%2Fg%2F11xj3zm98?entry=ttu&g_ep=EgoyMDI1MDEwOC4wIKXMDSoASAFQAw%3D%3D" class="btn btn-outline-primary btn-sm" target="_blank">
+                              <i class="fas fa-map-marker-alt"></i> View on Map
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+
+      <footer class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                <!-- About Us -->
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>
+                       Book Shelf started in 2024 by Safeer Vellathparambil [popularly known as Book Shelf, doyen of publishing in India] is considered as one of the top five prestigious literary publishing houses in India. Book Shelf Books is considered <a href="About Us.html"><span class="Read">Read more...</span></a>
+                    </p>
+                </div>
+                
+                <!-- Links -->
+                <div class="col-md-4">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled d-md-block d-flex flex-wrap gap-3">
+                        <li><a href="Contact us.html">Contact Us</a></li>
+                        
+                        <li><a href="About Us.html">About Us</a></li>
+                        <li><a href="Privacy and policy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Follow Us -->
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/fayiz.fazz.1257/"><i class="fb fab fa-facebook"></i></a>
+                        <a href="https://wa.me/8139035097"><i class="wh fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/fayiz_poovalappil/"><i class="inst fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+            
+    </div>
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+</body>
+</html>

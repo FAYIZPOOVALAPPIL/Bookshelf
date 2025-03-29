@@ -1,0 +1,139 @@
+.header{
+    background-color: rgb(82, 65, 7);
+
+}
+.navbar{
+    background-color:rgb(82, 65, 7);
+}
+
+/* Card hover effect */
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Fixed card height and styling */
+.card {
+   height: 550px;
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+/* Feedback star color */
+.fa-star {
+    color: gold;
+}
+
+/* Responsive layout */
+@media (max-width: 576px) {
+    .col-2 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+.card-title{
+    color: #5d5d5d;
+}
+.footer {
+    background-color: #343a40;
+    color: #9e9d9d;
+    padding: 3rem 0;
+}
+
+.footer h5 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.footer a {
+    color: #9e9d9d;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.social-icons i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.fb:hover {
+    color: #0857c5;
+}
+.wh:hover {
+    color: #018112;
+}
+.inst:hover {
+    color: #bb0505;
+}
+.Read{
+    color: rgb(255, 255, 255);
+}
+/* Style the cards in the cart */
+.cart-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.cart-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cart-card img {
+    width: 100%;
+    height: 200px; /* Set a fixed height for the images */
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-card .card-body {
+    padding: 15px;
+}
+
+.cart-card .card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.cart-card .card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.cart-card .btn-danger {
+    margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+    /* For mobile screens, stack the items */
+    .cart-card img {
+        height: 150px; /* Adjust image height for smaller screens */
+    }
+
+    .cart-card .card-body {
+        padding: 10px;
+    }
+
+    .cart-card .card-title {
+        font-size: 1rem;
+    }
+
+    .cart-card .card-text {
+        font-size: 0.9rem;
+    }
+}

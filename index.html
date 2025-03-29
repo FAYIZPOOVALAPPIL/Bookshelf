@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK SHELF</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="home container-fluid">
+        <!-- Header and Navbar (unchanged) -->
+        <div class="header">
+            <div class="row">
+                <div class="col-md-2">
+                    <img class="container mt-3" src="/Project2/Images/Logo/THE BOOK SHELF.png" alt="">
+                </div>
+             
+                <div class="col-md-3 offset-md-7 mt-2  text-end">
+                    <a href="cart.html" class="btn btn-outline-light"><i class="fa fa-shopping-cart"></i></a>
+
+                   
+                    <a href="wishlist.html" class="btn btn-outline-light"> <i class="fa fa-bookmark"></i></a>
+                </div>
+                <div>
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-1">
+                        <div class="container">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                                <ul class="navbar-nav d-flex justify-content-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link active me-3" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle ms-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Categories
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item category-filter" href="#" data-category="all">All</a></li>
+                                            <li><a class="dropdown-item category-filter" href="#" data-category="Academic">Academic</a></li>
+                                            <li><a class="dropdown-item category-filter" href="#" data-category="Art">Art</a></li>
+                                            <li><a class="dropdown-item category-filter" href="#" data-category="Astrology">Astrology</a></li>
+                                            <li><a class="dropdown-item category-filter" href="#" data-category="Novel">Novel</a></li>
+                                            <li><a class="dropdown-item category-filter" href="#" data-category="Kids">Kids</a></li>
+                                            <li><a class="dropdown-item category-filter" href="#" data-category="Religion">Religion</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link ms-3" href="Contact us.html">Contact Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link ms-3" href="Our stores.html">Our Stores</a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <!-- Middle Section -->
+        <div class="middle">
+
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div id="carouselExampleFade1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                               
+                                <div class="carousel-item active">
+                                    <img src="/Sample project/Images/Kids-img/pashu patham.jpeg" class="d-block w-100" alt="Slide 1">
+                                </div>
+                                
+                                <div class="carousel-item">
+                                    <img src="/Sample project/Images/Novels-img/Ram co Anandhi.jpg" class="d-block w-100" alt="Slide 2">
+                                </div>
+      
+                                <div class="carousel-item">
+                                  <img src="/Sample project/Images/Art-images.html/Thirakatha.png" class="d-block w-100" alt="Slide 2">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade1" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade1" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+            
+                    
+                    <div class="col-md-6">
+                        <div id="carouselExampleFade2" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                
+                                <div class="carousel-item active">
+                                    <img src="/Sample project/Images/Carousel-img-center/books.jpg" class="d-block w-100" alt="Slide 1">
+                                </div>
+                                
+                                <div class="carousel-item">
+                                    <img src="/Sample project/Images/Carousel-img-center/carousel-img-5.JPG" class="d-block w-100" alt="Slide 2">
+                                </div>
+                                
+                                <div class="carousel-item">
+                                    <img src="/Sample project/Images/Carousel-img-center/Untitled design 6.PNG" class="d-block w-100" alt="Slide 3">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade2" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade2" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+            
+                    
+                    <div class="col-md-3">
+                        <div id="carouselExampleFade3" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                               
+                                <div class="carousel-item active">
+                                    <img src="/Sample project/Images/Relegion/ravanan.jpeg" class="d-block w-100" alt="Slide 1">
+                                </div>
+                                
+                                <div class="carousel-item">
+                                    <img src="/Sample project/Images/Kids-img/kunjunnimash.jpg" class="d-block w-100" alt="Slide 2">
+                                </div>
+      
+                                <div class="carousel-item">
+                                  <img src="/Sample project/Images/Astrology-img/JYOTHISHA NIKANDU.jpg" class="d-block w-100" alt="Slide 2">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade3" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade3" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5">
+                <h1 class="mb-4">New Release</h1>
+                <div class="row" id="bookCards"></div>
+            </div>
+        </div>
+
+        <!-- Modal for Book Details -->
+        <div class="modal fade" id="bookDetailsModal" tabindex="-1" aria-labelledby="bookDetailsModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="bookDetailsModalLabel">Book Details</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img id="modalBookImage" src="" alt="Book Image" class="img-fluid">
+                            </div>
+                            <div class="col-md-8">
+                                <h3 id="modalBookTitle"></h3>
+                                <p><strong>Author:</strong> <span id="modalAuthorName"></span></p>
+                                <p><strong>Category:</strong> <span id="modalCategory"></span></p>
+                                <p><strong>ISBN:</strong> <span id="modalISBN"></span></p>
+                                <p><strong>Publisher:</strong> <span id="modalPublisher"></span></p>
+                                <p><strong>Rating:</strong> <span id="modalRating"></span></p>
+                                <p><strong>Price:</strong> ₹<span id="modalPrice"></span></p>
+                                <p><strong>Stock:</strong> <span id="modalStock"></span></p>
+                                <p><strong>About:</strong> <span id="modalAbout"></span></p>
+                                <div class="quantity-selector mt-3">
+                                    <label for="quantity"><strong>Quantity:</strong></label>
+                                    <div class="input-group">
+                                        <button class="btn btn-outline-secondary" id="decrementQuantity">-</button>
+                                        <input type="number" id="quantity" class="form-control  text-center" value="1" min="1" max="10">
+                                        <button class="btn btn-outline-secondary" id="incrementQuantity">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button id="addToCartBtn" class="btn btn-primary">Add to Cart</button>
+                        <button id="addToWishlistBtn" class="btn btn-warning">Add to Wishlist</button>
+                        <button id="buyNowBtn" class="btn btn-success" onclick="redirectToCheckout()">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer (unchanged) -->
+        <footer class="footer mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>About Us</h5>
+                        <p>
+                            Book Shelf started in 2024 by Safeer Vellathparambil [popularly known as Book Shelf, doyen of publishing in India] is considered as one of the top five prestigious literary publishing houses in India. Book Shelf Books is considered <a href="About Us.html"><span class="Read">Read more...</span></a>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled d-md-block d-flex flex-wrap gap-3">
+                            <li><a href="Contact us.html">Contact Us</a></li>
+                            <li><a href="About Us.html">About Us</a></li>
+                            <li><a href="Privacy and policy.html">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Follow Us</h5>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/fayiz.fazz.1257/"><i class="fb fab fa-facebook"></i></a>
+                            <a href="https://wa.me/8139035097"><i class="wh fab fa-whatsapp"></i></a>
+                            <a href="https://www.instagram.com/fayiz_poovalappil/"><i class="inst fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="index.js" > 
+   
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
